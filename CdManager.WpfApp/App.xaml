@@ -10,6 +10,7 @@
             <Setter Property="Control.Foreground" Value="Sienna"></Setter>
             <Setter Property="Control.Margin" Value="5,10,0,20"></Setter>
         </Style>
+
         <Style TargetType="TextBox">
             <Setter Property="Margin" Value="3,3,3,3"></Setter>
             <Style.Triggers>
@@ -31,6 +32,7 @@
                 </EventTrigger>
             </Style.Triggers>
         </Style>
+
         <Style x:Key="WindowStyle" TargetType="Window">
             <Setter Property="Background" Value="Azure"></Setter>
         </Style>
@@ -38,6 +40,7 @@
             <Setter Property="Margin" Value="5,5,5,5"></Setter>
             <Setter Property="MinHeight" Value="30"></Setter>
         </Style>
+
         <Style TargetType="ListView">
             <Setter Property="Background">
                 <Setter.Value>
@@ -62,5 +65,6 @@
                 </Trigger>
             </ControlTemplate.Triggers>
         </ControlTemplate>
+        
     </Application.Resources>
 </Application>
